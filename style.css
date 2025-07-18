@@ -8,7 +8,7 @@ body{
     background: #f4f4f4;
 }
 .hero-content {
-    height: 100vh;
+
     background: url(PicsArt_07-16-02.20.50.jpg)no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,7 +17,8 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    position: relative;
+    position: relative; 
+    height: 100vh;
     top: 38%;
     display: inline-block;
 }
@@ -281,7 +282,6 @@ input {
     display: inline-block;
     align-items: center;
     width: 250px;
-    height: auto;
     margin-right: 35px;
 }
 .testimony-card img {
@@ -440,7 +440,7 @@ input {
     padding: 50px 16px;
 }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px){
     input{
         margin-left: 40px;
     }
