@@ -6,6 +6,10 @@
 }
 body{
     background: #f4f4f4;
+    overflow-x: hidden;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 .hero-content {
 
@@ -375,7 +379,7 @@ input {
         font-size: 15px;
         font-weight: 300;
     }
-    .navbar::-webkit-scrollbar{
+    .navbar1::-webkit-scrollbar{
         display: none;
     }
     .navbar{
